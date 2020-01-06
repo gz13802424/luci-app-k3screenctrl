@@ -43,8 +43,8 @@ msgstr "隐藏无线密码"
 msgid "Display CPU temperature"
 msgstr "显示 CPU 温度"
 
-msgid "The first page shows the CPU temperature."
-msgstr "第一页显示 CPU 温度"
+msgid "The first page shows more information including: CPU temprature, Load, RAM, uptime, etc"
+msgstr "第一页显示更多信息，包括：CPU温度，负载，内存，运行时间等"
 
 msgid "Test"
 msgstr "测试"

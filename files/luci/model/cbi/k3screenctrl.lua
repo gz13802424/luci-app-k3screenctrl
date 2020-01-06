@@ -43,7 +43,7 @@ o.rmempty = false
 o = s:option(Flag, "psk_hide", translate("Hide Wireless password"))
 o.default = 0
 
-o = s:option(Flag, "cputemp", translate("Display CPU temperature"), translate("The first page shows the CPU temperature."))
+o = s:option(Flag, "showmore", translate("Display More Info"), translate("The first page shows more information including: CPU temprature, Load, RAM, uptime, etc"))
 o.default = 0
 
 o = s:option(Button,"test_print",translate("Test"),translate("Execute k3screenctrl -t and return the result"))
