@@ -20,6 +20,7 @@ o.default = 10
 o.rmempty = false
 
 o = s:option(ListValue, "refresh_time", translate("Refresh interval :"), translate("Screen data refresh interval."))
+o:value("1",translate("1 s"))
 o:value("2",translate("2 s"))
 o:value("5",translate("5 s"))
 o:value("10",translate("10 s"))

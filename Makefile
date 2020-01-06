@@ -40,6 +40,8 @@ define Package/$(PKG_NAME)/install
 	$(INSTALL_DATA) ./files/luci/controller/k3screenctrl.lua $(1)/usr/lib/lua/luci/controller/
 	$(INSTALL_DIR) $(1)/usr/lib/lua/luci/model/cbi
 	$(INSTALL_DATA) ./files/luci/model/cbi/k3screenctrl.lua $(1)/usr/lib/lua/luci/model/cbi/
+	$(INSTALL_DIR) $(1)/usr/lib/lua/luci/i18n
+	po2lmo ./files/luci/i18n/k3screenctrl.zh-cn.po $(1)/usr/lib/lua/luci/i18n/k3screenctrl.zh-cn.lmo
 endef
 
 $(eval $(call BuildPackage,$(PKG_NAME)))
