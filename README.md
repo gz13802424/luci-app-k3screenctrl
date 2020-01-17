@@ -1,5 +1,5 @@
 # luci-app-k3screenctrl
-根据 [K3 openwrt18.06.02](https://www.right.com.cn/forum/thread-466672-1-1.html) 固件的LuCi文件而来，受限于个人的知识水平，没有添加修改后的翻译
+根据 [K3 openwrt18.06.02](https://www.right.com.cn/forum/thread-466672-1-1.html) 固件的LuCi文件而来
 
 个人编译的时候搭配的是:
 
